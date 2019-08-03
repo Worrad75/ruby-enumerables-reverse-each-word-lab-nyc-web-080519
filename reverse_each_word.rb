@@ -23,7 +23,12 @@ end
 
 
 def reverse_each_word(str)
+  array = str.split(" ")
+  reversed_sentance = []
   
+  array.collect do |word|
+    
+  end
   
   
 end
