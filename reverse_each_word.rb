@@ -18,3 +18,13 @@ def reverse_each_word(str)
   reversed_sentance = reversed_sentance.join(" ")
   reversed_sentance
 end
+
+
+
+
+def reverse_each_word(str)
+  
+  
+  
+end
+
