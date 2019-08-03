@@ -1,9 +1,18 @@
 def reverse_each_word(str)
   array = str.split(" ")
+  reversed_sentance = []
   
-  array.each do |ele|
-    new_word = ""
-    
+  array.each do |word|
+    letter = word.length-1
+    backwards = ""
+  
+    while letter >= 0
+      char = word[letter]
+      backwards = backwards + char
+      letter-=1
+    end
+  
+    reversed_sentance << backwards
   end
   
 end
