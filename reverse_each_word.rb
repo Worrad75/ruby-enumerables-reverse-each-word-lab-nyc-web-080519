@@ -29,5 +29,7 @@ def reverse_each_word(str)
     word.reverse
   end
   
+  reversed_sentance = reversed_sentance.join(" ")
+  reversed_sentance
 end
 
