@@ -27,9 +27,8 @@ def reverse_each_word(str)
   reversed_sentance = []
   
   array.collect do |word|
-    
+    word.reverse
   end
-  
   
 end
 
